@@ -1,4 +1,4 @@
-type Player<E> = {
+type Player1<E> = {
   name: string;
   extraInfo: E;
 };
@@ -7,7 +7,7 @@ type JsExtra = {
   favFood: string;
 };
 
-type JsPlayer = Player<JsExtra>;
+type JsPlayer = Player1<JsExtra>;
 
 const js: JsPlayer = {
   name: "js",
@@ -16,7 +16,7 @@ const js: JsPlayer = {
   },
 };
 
-const ts: Player<null> = {
+const ts: Player1<null> = {
   name: "ts",
   extraInfo: null,
 };

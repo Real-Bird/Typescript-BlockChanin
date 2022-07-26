@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Real-Bird/Typescript-BlockChanin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Real-Bird/Typescript-BlockChanin/issues"
+  },
+  "homepage": "https://github.com/Real-Bird/Typescript-BlockChanin#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
