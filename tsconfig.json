@@ -4,8 +4,8 @@
     "outDir": "build", // js로 컴파일한 파일을 내보낼 공간
     "esModuleInterop": true,
     "target": "ES6",
-    "lib": ["ES6", "DOM"],
+    "lib": ["ES6"],
     "strict": true,
-    "allowJs": true
+    "module": "CommonJS"
   }
 }
